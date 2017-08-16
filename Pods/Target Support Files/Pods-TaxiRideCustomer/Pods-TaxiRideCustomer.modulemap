@@ -1,0 +1,6 @@
+framework module Pods_TaxiRideCustomer {
+  umbrella header "Pods-TaxiRideCustomer-umbrella.h"
+
+  export *
+  module * { export * }
+}

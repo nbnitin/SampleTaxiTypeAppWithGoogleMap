@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B15EAA71F397C030071A02D /* DimLayerSwRevealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15EAA61F397C030071A02D /* DimLayerSwRevealView.swift */; };
+		4B15EAA91F397E5C0071A02D /* YourRides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B15EAA81F397E5C0071A02D /* YourRides.storyboard */; };
+		4B15EAAB1F39805A0071A02D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B15EAAA1F39805A0071A02D /* Profile.storyboard */; };
+		4B15EAAD1F39951E0071A02D /* YourRidesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15EAAC1F39951E0071A02D /* YourRidesTableViewController.swift */; };
+		4B15EAAF1F39954D0071A02D /* YourRidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15EAAE1F39954D0071A02D /* YourRidesTableViewCell.swift */; };
+		4B3A99EB1F14B82C00419D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A99EA1F14B82C00419D94 /* AppDelegate.swift */; };
+		4B3A99ED1F14B82C00419D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A99EC1F14B82C00419D94 /* ViewController.swift */; };
+		4B3A99F01F14B82C00419D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3A99EE1F14B82C00419D94 /* Main.storyboard */; };
+		4B3A99F21F14B82C00419D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3A99F11F14B82C00419D94 /* Assets.xcassets */; };
+		4B3A99F51F14B82C00419D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3A99F31F14B82C00419D94 /* LaunchScreen.storyboard */; };
+		4B47442F1F188A2900516314 /* viewSetupExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B47442E1F188A2900516314 /* viewSetupExtension.swift */; };
+		4B4744311F188AC300516314 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4744301F188AC300516314 /* LoginViewController.swift */; };
+		4B509F441F2068CB00DB72B4 /* CustomGooglePlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B509F431F2068CB00DB72B4 /* CustomGooglePlacesViewController.swift */; };
+		4B509F461F20770700DB72B4 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B509F451F20770700DB72B4 /* ApiHandler.swift */; };
+		4B57002D1F34557C0027B454 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B57002B1F34557C0027B454 /* SWRevealViewController.m */; };
+		4B57002F1F345DAC0027B454 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57002E1F345DAC0027B454 /* MenuTableViewController.swift */; };
+		4B5AF9811F22032B00EB1D60 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AF9801F22032B00EB1D60 /* BookingViewController.swift */; };
+		4B6377771F31B9EC00BE41FF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6377761F31B9EC00BE41FF /* ProfileViewController.swift */; };
+		4B6E39E31F25FFA6007EC0F7 /* AnimateControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E39E21F25FFA6007EC0F7 /* AnimateControl.swift */; };
+		4B8D5841F235732C0FEB1AF7 /* Pods_TaxiRideCustomer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F92131C45860FB804C21678 /* Pods_TaxiRideCustomer.framework */; };
+		4B99125A1F1C933F0018F405 /* SingupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9912591F1C933F0018F405 /* SingupViewController.swift */; };
+		4B99125C1F1CA9040018F405 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B99125B1F1CA9040018F405 /* User.storyboard */; };
+		4B9912601F1CB0B40018F405 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99125F1F1CB0B40018F405 /* SplashViewController.swift */; };
+		4BABA50D1F29B7CA00419A88 /* FinalizeBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BABA50C1F29B7CA00419A88 /* FinalizeBookingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B15EAA61F397C030071A02D /* DimLayerSwRevealView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimLayerSwRevealView.swift; sourceTree = "<group>"; };
+		4B15EAA81F397E5C0071A02D /* YourRides.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YourRides.storyboard; sourceTree = "<group>"; };
+		4B15EAAA1F39805A0071A02D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		4B15EAAC1F39951E0071A02D /* YourRidesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourRidesTableViewController.swift; sourceTree = "<group>"; };
+		4B15EAAE1F39954D0071A02D /* YourRidesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourRidesTableViewCell.swift; sourceTree = "<group>"; };
+		4B3A99E71F14B82C00419D94 /* TaxiRideCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiRideCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3A99EA1F14B82C00419D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3A99EC1F14B82C00419D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B3A99EF1F14B82C00419D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3A99F11F14B82C00419D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3A99F41F14B82C00419D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3A99F61F14B82C00419D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B47442E1F188A2900516314 /* viewSetupExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewSetupExtension.swift; sourceTree = "<group>"; };
+		4B4744301F188AC300516314 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4B509F431F2068CB00DB72B4 /* CustomGooglePlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGooglePlacesViewController.swift; sourceTree = "<group>"; };
+		4B509F451F20770700DB72B4 /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		4B57002A1F34557C0027B454 /* TaxiRideCustomer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaxiRideCustomer-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B57002B1F34557C0027B454 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4B57002C1F34557C0027B454 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		4B57002E1F345DAC0027B454 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		4B5AF9801F22032B00EB1D60 /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		4B6377761F31B9EC00BE41FF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4B6E39E21F25FFA6007EC0F7 /* AnimateControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateControl.swift; sourceTree = "<group>"; };
+		4B9912591F1C933F0018F405 /* SingupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingupViewController.swift; sourceTree = "<group>"; };
+		4B99125B1F1CA9040018F405 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		4B99125F1F1CB0B40018F405 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = User/SplashViewController.swift; sourceTree = "<group>"; };
+		4BABA50C1F29B7CA00419A88 /* FinalizeBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalizeBookingViewController.swift; sourceTree = "<group>"; };
+		5F92131C45860FB804C21678 /* Pods_TaxiRideCustomer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiRideCustomer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D1BCEEEDB30030E47B094D /* Pods-TaxiRideCustomer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiRideCustomer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiRideCustomer/Pods-TaxiRideCustomer.release.xcconfig"; sourceTree = "<group>"; };
+		D409255B021C1D1AEEBA49A2 /* Pods-TaxiRideCustomer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiRideCustomer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiRideCustomer/Pods-TaxiRideCustomer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3A99E41F14B82C00419D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8D5841F235732C0FEB1AF7 /* Pods_TaxiRideCustomer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6C6DFBC4B48F97B5F41292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F92131C45860FB804C21678 /* Pods_TaxiRideCustomer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B3A99DE1F14B82C00419D94 = {
+			isa = PBXGroup;
+			children = (
+				4B3A99E91F14B82C00419D94 /* TaxiRideCustomer */,
+				4B3A99E81F14B82C00419D94 /* Products */,
+				92A3BD5B36513F422665B914 /* Pods */,
+				3C6C6DFBC4B48F97B5F41292 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3A99E81F14B82C00419D94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3A99E71F14B82C00419D94 /* TaxiRideCustomer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3A99E91F14B82C00419D94 /* TaxiRideCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				4B47442D1F188A0900516314 /* Common */,
+				4B99125E1F1CA91F0018F405 /* Initial */,
+				4B9912631F1CB9490018F405 /* User */,
+				4B99125D1F1CA90D0018F405 /* Sotryboard */,
+				4B3A99F11F14B82C00419D94 /* Assets.xcassets */,
+				4B3A99F31F14B82C00419D94 /* LaunchScreen.storyboard */,
+				4B3A99F61F14B82C00419D94 /* Info.plist */,
+			);
+			path = TaxiRideCustomer;
+			sourceTree = "<group>";
+		};
+		4B47442D1F188A0900516314 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B15EAA61F397C030071A02D /* DimLayerSwRevealView.swift */,
+				4B57002E1F345DAC0027B454 /* MenuTableViewController.swift */,
+				4B57002B1F34557C0027B454 /* SWRevealViewController.m */,
+				4B57002C1F34557C0027B454 /* SWRevealViewController.h */,
+				4B3A99EA1F14B82C00419D94 /* AppDelegate.swift */,
+				4B47442E1F188A2900516314 /* viewSetupExtension.swift */,
+				4B6E39E21F25FFA6007EC0F7 /* AnimateControl.swift */,
+				4B509F451F20770700DB72B4 /* ApiHandler.swift */,
+				4B57002A1F34557C0027B454 /* TaxiRideCustomer-Bridging-Header.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4B99125D1F1CA90D0018F405 /* Sotryboard */ = {
+			isa = PBXGroup;
+			children = (
+				4B3A99EE1F14B82C00419D94 /* Main.storyboard */,
+				4B99125B1F1CA9040018F405 /* User.storyboard */,
+				4B15EAA81F397E5C0071A02D /* YourRides.storyboard */,
+				4B15EAAA1F39805A0071A02D /* Profile.storyboard */,
+			);
+			name = Sotryboard;
+			sourceTree = "<group>";
+		};
+		4B99125E1F1CA91F0018F405 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				4B3A99EC1F14B82C00419D94 /* ViewController.swift */,
+				4B9912591F1C933F0018F405 /* SingupViewController.swift */,
+				4B4744301F188AC300516314 /* LoginViewController.swift */,
+			);
+			name = Initial;
+			sourceTree = "<group>";
+		};
+		4B9912631F1CB9490018F405 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4B15EAAC1F39951E0071A02D /* YourRidesTableViewController.swift */,
+				4B15EAAE1F39954D0071A02D /* YourRidesTableViewCell.swift */,
+				4B6377761F31B9EC00BE41FF /* ProfileViewController.swift */,
+				4BABA50C1F29B7CA00419A88 /* FinalizeBookingViewController.swift */,
+				4B509F431F2068CB00DB72B4 /* CustomGooglePlacesViewController.swift */,
+				4B5AF9801F22032B00EB1D60 /* BookingViewController.swift */,
+				4B99125F1F1CB0B40018F405 /* SplashViewController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		92A3BD5B36513F422665B914 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D409255B021C1D1AEEBA49A2 /* Pods-TaxiRideCustomer.debug.xcconfig */,
+				96D1BCEEEDB30030E47B094D /* Pods-TaxiRideCustomer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3A99E61F14B82C00419D94 /* TaxiRideCustomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3A99F91F14B82C00419D94 /* Build configuration list for PBXNativeTarget "TaxiRideCustomer" */;
+			buildPhases = (
+				3E9659FFEFB176A5E2818045 /* [CP] Check Pods Manifest.lock */,
+				4B3A99E31F14B82C00419D94 /* Sources */,
+				4B3A99E41F14B82C00419D94 /* Frameworks */,
+				4B3A99E51F14B82C00419D94 /* Resources */,
+				D5E4DBDFC3239EFD8EF2171C /* [CP] Embed Pods Frameworks */,
+				163255FCA471B1B4FB8A315E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiRideCustomer;
+			productName = TaxiRideCustomer;
+			productReference = 4B3A99E71F14B82C00419D94 /* TaxiRideCustomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3A99DF1F14B82C00419D94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nitin Bhatia";
+				TargetAttributes = {
+					4B3A99E61F14B82C00419D94 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SF78HV8BZS;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B3A99E21F14B82C00419D94 /* Build configuration list for PBXProject "TaxiRideCustomer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3A99DE1F14B82C00419D94;
+			productRefGroup = 4B3A99E81F14B82C00419D94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3A99E61F14B82C00419D94 /* TaxiRideCustomer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3A99E51F14B82C00419D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B15EAAB1F39805A0071A02D /* Profile.storyboard in Resources */,
+				4B15EAA91F397E5C0071A02D /* YourRides.storyboard in Resources */,
+				4B3A99F51F14B82C00419D94 /* LaunchScreen.storyboard in Resources */,
+				4B99125C1F1CA9040018F405 /* User.storyboard in Resources */,
+				4B3A99F21F14B82C00419D94 /* Assets.xcassets in Resources */,
+				4B3A99F01F14B82C00419D94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		163255FCA471B1B4FB8A315E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxiRideCustomer/Pods-TaxiRideCustomer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9659FFEFB176A5E2818045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E4DBDFC3239EFD8EF2171C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaxiRideCustomer/Pods-TaxiRideCustomer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3A99E31F14B82C00419D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B57002D1F34557C0027B454 /* SWRevealViewController.m in Sources */,
+				4B5AF9811F22032B00EB1D60 /* BookingViewController.swift in Sources */,
+				4B15EAAD1F39951E0071A02D /* YourRidesTableViewController.swift in Sources */,
+				4B99125A1F1C933F0018F405 /* SingupViewController.swift in Sources */,
+				4B4744311F188AC300516314 /* LoginViewController.swift in Sources */,
+				4B6E39E31F25FFA6007EC0F7 /* AnimateControl.swift in Sources */,
+				4BABA50D1F29B7CA00419A88 /* FinalizeBookingViewController.swift in Sources */,
+				4B47442F1F188A2900516314 /* viewSetupExtension.swift in Sources */,
+				4B15EAAF1F39954D0071A02D /* YourRidesTableViewCell.swift in Sources */,
+				4B6377771F31B9EC00BE41FF /* ProfileViewController.swift in Sources */,
+				4B57002F1F345DAC0027B454 /* MenuTableViewController.swift in Sources */,
+				4B509F441F2068CB00DB72B4 /* CustomGooglePlacesViewController.swift in Sources */,
+				4B509F461F20770700DB72B4 /* ApiHandler.swift in Sources */,
+				4B15EAA71F397C030071A02D /* DimLayerSwRevealView.swift in Sources */,
+				4B9912601F1CB0B40018F405 /* SplashViewController.swift in Sources */,
+				4B3A99ED1F14B82C00419D94 /* ViewController.swift in Sources */,
+				4B3A99EB1F14B82C00419D94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B3A99EE1F14B82C00419D94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3A99EF1F14B82C00419D94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3A99F31F14B82C00419D94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3A99F41F14B82C00419D94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3A99F71F14B82C00419D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3A99F81F14B82C00419D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3A99FA1F14B82C00419D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D409255B021C1D1AEEBA49A2 /* Pods-TaxiRideCustomer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SF78HV8BZS;
+				INFOPLIST_FILE = TaxiRideCustomer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.chat.ios.TaxiRideCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaxiRideCustomer/TaxiRideCustomer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B3A99FB1F14B82C00419D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D1BCEEEDB30030E47B094D /* Pods-TaxiRideCustomer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SF78HV8BZS;
+				INFOPLIST_FILE = TaxiRideCustomer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.chat.ios.TaxiRideCustomer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TaxiRideCustomer/TaxiRideCustomer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3A99E21F14B82C00419D94 /* Build configuration list for PBXProject "TaxiRideCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3A99F71F14B82C00419D94 /* Debug */,
+				4B3A99F81F14B82C00419D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3A99F91F14B82C00419D94 /* Build configuration list for PBXNativeTarget "TaxiRideCustomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3A99FA1F14B82C00419D94 /* Debug */,
+				4B3A99FB1F14B82C00419D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3A99DF1F14B82C00419D94 /* Project object */;
+}
